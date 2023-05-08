@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personalities",
+  "info": {
+    "singularName": "personality",
+    "pluralName": "personalities",
+    "displayName": "Personality"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isPlayful": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isQuiet": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isgoodWithKids": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isLoving": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isSociable": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isSpoiled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

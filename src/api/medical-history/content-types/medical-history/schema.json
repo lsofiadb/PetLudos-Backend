@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medical_histories",
+  "info": {
+    "singularName": "medical-history",
+    "pluralName": "medical-histories",
+    "displayName": "Medical_history"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "diseases": {
+      "type": "text",
+      "required": true
+    },
+    "need_medicines": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
