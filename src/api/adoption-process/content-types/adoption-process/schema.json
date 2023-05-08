@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adoption_processes",
+  "info": {
+    "singularName": "adoption-process",
+    "pluralName": "adoption-processes",
+    "displayName": "Adoption_process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "date_time_local": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
