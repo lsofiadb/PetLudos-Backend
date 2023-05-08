@@ -5,8 +5,9 @@ PetLudos is a web application to find pets and adopt them.
 ## Tech stack 📚:wrench::hammer:
 
 Strapi, JavaScript, SQLite, Lifecycle hooks, Postman. 
+--
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+#### Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
 ### `develop`
 
