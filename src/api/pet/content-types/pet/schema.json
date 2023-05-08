@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pets",
+  "info": {
+    "singularName": "pet",
+    "pluralName": "pets",
+    "displayName": "Pet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "string",
+      "required": true
+    },
+    "breed": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "decimal",
+      "required": true
+    },
+    "genre": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ],
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "specie": {
+      "type": "string",
+      "required": true
+    },
+    "weight": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
