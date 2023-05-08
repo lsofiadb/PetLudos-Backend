@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pet",
     "pluralName": "pets",
-    "displayName": "Pet"
+    "displayName": "Pet",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -45,6 +46,30 @@
     },
     "weight": {
       "type": "decimal",
+      "required": true
+    },
+    "medical_history": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::medical-history.medical-history"
+    },
+    "personality": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::personality.personality"
+    },
+    "adoption_process": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::adoption-process.adoption-process",
+      "inversedBy": "pets"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
       "required": true
     }
   }

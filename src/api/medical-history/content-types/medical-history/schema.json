@@ -18,6 +18,12 @@
     "need_medicines": {
       "type": "text",
       "required": true
+    },
+    "vaccines": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vaccine.vaccine",
+      "mappedBy": "medical_history"
     }
   }
 }
