@@ -19,12 +19,6 @@
     "date": {
       "type": "date",
       "required": true
-    },
-    "medical_history": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::medical-history.medical-history",
-      "inversedBy": "vaccines"
     }
   }
 }

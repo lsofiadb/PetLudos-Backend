@@ -20,11 +20,11 @@
       "type": "datetime",
       "required": true
     },
-    "states": {
+    "state": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::state.state",
-      "mappedBy": "adoption_process"
+      "inversedBy": "adoption_processes"
     },
     "pets": {
       "type": "relation",

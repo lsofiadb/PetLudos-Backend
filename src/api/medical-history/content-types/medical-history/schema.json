@@ -4,7 +4,8 @@
   "info": {
     "singularName": "medical-history",
     "pluralName": "medical-histories",
-    "displayName": "Medical_history"
+    "displayName": "Medical_history",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,8 +23,7 @@
     "vaccines": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::vaccine.vaccine",
-      "mappedBy": "medical_history"
+      "target": "api::vaccine.vaccine"
     }
   }
 }
