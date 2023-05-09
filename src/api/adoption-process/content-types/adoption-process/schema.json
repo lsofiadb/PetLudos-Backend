@@ -16,10 +16,6 @@
       "type": "text",
       "required": true
     },
-    "date_time_local": {
-      "type": "datetime",
-      "required": true
-    },
     "state": {
       "type": "relation",
       "relation": "manyToOne",
