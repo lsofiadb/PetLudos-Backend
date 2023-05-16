@@ -20,6 +20,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::pet.pet"
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "testimonies"
     }
   }
 }

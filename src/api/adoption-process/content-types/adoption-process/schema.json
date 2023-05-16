@@ -27,6 +27,12 @@
       "relation": "oneToMany",
       "target": "api::pet.pet",
       "mappedBy": "adoption_process"
+    },
+    "candidate": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "adoption_processes"
     }
   }
 }
