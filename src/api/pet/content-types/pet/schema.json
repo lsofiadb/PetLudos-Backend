@@ -58,12 +58,6 @@
       "relation": "oneToOne",
       "target": "api::personality.personality"
     },
-    "adoption_process": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::adoption-process.adoption-process",
-      "inversedBy": "pets"
-    },
     "picture": {
       "allowedTypes": [
         "images"
@@ -71,6 +65,12 @@
       "type": "media",
       "multiple": false,
       "required": true
+    },
+    "adoption_processes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::adoption-process.adoption-process",
+      "mappedBy": "pet"
     }
   }
 }

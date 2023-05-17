@@ -22,11 +22,11 @@
       "target": "api::state.state",
       "inversedBy": "adoption_processes"
     },
-    "pets": {
+    "pet": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::pet.pet",
-      "mappedBy": "adoption_process"
+      "inversedBy": "adoption_processes"
     },
     "candidate": {
       "type": "relation",
