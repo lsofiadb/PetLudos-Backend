@@ -59,18 +59,22 @@
       "target": "api::personality.personality"
     },
     "picture": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "adoption_processes": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::adoption-process.adoption-process",
       "mappedBy": "pet"
+    },
+    "alternative_text": {
+      "type": "text",
+      "required": true
     }
   }
 }
